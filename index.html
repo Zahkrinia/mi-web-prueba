@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IA BotWorks | Soluciones con Chatbots Inteligentes</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f0f4f8;
+      color: #1f2937;
+    }
+    header {
+      background-color: #0f172a;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+    }
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+    .button {
+      background-color: #2563eb;
+      color: white;
+      border: none;
+      padding: 14px 24px;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      margin-top: 30px;
+    }
+    #chatbox {
+      margin-top: 30px;
+      background-color: white;
+      border: 1px solid #d1d5db;
+      border-radius: 10px;
+      padding: 20px;
+      display: none;
+      text-align: left;
+    }
+    footer {
+      margin-top: 60px;
+      text-align: center;
+      color: #6b7280;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>IA BotWorks</h1>
+    <p>Automatiza tu negocio con chatbots inteligentes impulsados por IA</p>
+  </header>
+
+  <main>
+    <h2>¿Qué ofrecemos?</h2>
+    <p>Diseñamos, personalizamos e integramos asistentes virtuales inteligentes que conversan con tus clientes, agendan citas, responden dudas y más.</p>
+    
+    <button class="button" onclick="abrirChat()">Probar Chatbot</button>
+
+    <div id="chatbox">
+      <p><strong>Asistente Virtual IA:</strong> ¡Hola! Soy un chatbot de prueba. ¿En qué puedo ayudarte hoy?</p>
+      <p><em>(Este espacio servirá para conectar un chatbot real con OpenAI y automatizaciones.)</em></p>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 IA BotWorks - Demostración de chatbot en vivo
+  </footer>
+
+  <script>
+    function abrirChat() {
+      document.getElementById('chatbox').style.display = 'block';
+    }
+  </script>
+
+</body>
+</html>
