@@ -1,15 +1,17 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>IA BotWorks | Soluciones con Chatbots Inteligentes</title>
+  <title>IA BotWorks | Agencia de Automatización Inteligente</title>
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
       margin: 0;
-      background-color: #f0f4f8;
+      background-color: #f8fafc;
       color: #1f2937;
+      line-height: 1.6;
     }
     header {
       background-color: #0f172a;
@@ -25,36 +27,35 @@
       margin-top: 10px;
       font-size: 1.2rem;
     }
-    main {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
+    nav {
+      background-color: #1e293b;
+      padding: 10px;
       text-align: center;
     }
-    .button {
-      background-color: #2563eb;
+    nav a {
       color: white;
-      border: none;
-      padding: 14px 24px;
-      border-radius: 8px;
-      font-size: 1rem;
-      cursor: pointer;
-      margin-top: 30px;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
     }
-    #chatbox {
-      margin-top: 30px;
-      background-color: white;
-      border: 1px solid #d1d5db;
-      border-radius: 10px;
-      padding: 20px;
-      display: none;
-      text-align: left;
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      color: #0f172a;
+    }
+    .servicio {
+      margin-bottom: 30px;
     }
     footer {
       margin-top: 60px;
       text-align: center;
       color: #6b7280;
       font-size: 0.9rem;
+      padding: 20px;
+      background-color: #f1f5f9;
     }
   </style>
 </head>
@@ -62,30 +63,82 @@
 
   <header>
     <h1>IA BotWorks</h1>
-    <p>Automatiza tu negocio con chatbots inteligentes impulsados por IA</p>
+    <p>Impulsamos tu negocio con automatización inteligente y chatbots de última generación</p>
   </header>
 
-  <main>
-    <h2>¿Qué ofrecemos?</h2>
-    <p>Diseñamos, personalizamos e integramos asistentes virtuales inteligentes que conversan con tus clientes, agendan citas, responden dudas y más.</p>
-    
-    <button class="button" onclick="abrirChat()">Probar Chatbot</button>
+  <nav>
+    <a href="#servicios">Servicios</a>
+    <a href="#contacto">Contacto</a>
+    <a href="#direccion">Dirección</a>
+    <a href="#horario">Horario</a>
+  </nav>
 
-    <div id="chatbox">
-      <p><strong>Asistente Virtual IA:</strong> ¡Hola! Soy un chatbot de prueba. ¿En qué puedo ayudarte hoy?</p>
-      <p><em>(Este espacio servirá para conectar un chatbot real con OpenAI y automatizaciones.)</em></p>
+  <section id="servicios">
+    <h2>Servicios</h2>
+
+    <div class="servicio">
+      <h3>1. Desarrollo de Chatbots Personalizados</h3>
+      <p>Creamos chatbots inteligentes adaptados a las necesidades específicas de tu negocio. Utilizamos modelos avanzados de lenguaje como GPT-4.5 para garantizar respuestas naturales, precisas y contextualmente relevantes. Los bots pueden integrarse en tu web, redes sociales o WhatsApp para atender consultas, generar leads o cerrar ventas.</p>
     </div>
-  </main>
+
+    <div class="servicio">
+      <h3>2. Automatización de Procesos con IA</h3>
+      <p>Analizamos tus procesos manuales repetitivos y los transformamos en flujos automatizados usando herramientas como Make o n8n. Ahorramos tiempo, reducimos errores humanos y aumentamos la eficiencia de tu empresa conectando múltiples aplicaciones sin necesidad de programar.</p>
+    </div>
+
+    <div class="servicio">
+      <h3>3. Integración con APIs y Plataformas</h3>
+      <p>Conectamos tu chatbot o asistente virtual con plataformas como Google Calendar, CRM, bases de datos o tiendas online mediante APIs. Esto permite automatizar desde el agendado de citas hasta la actualización de inventario o el envío automático de correos y mensajes personalizados.</p>
+    </div>
+
+    <div class="servicio">
+      <h3>4. Creación de Agentes Virtuales Multilingües</h3>
+      <p>Desarrollamos bots capaces de interactuar en múltiples idiomas, permitiéndote atender a clientes de diferentes regiones. Nuestros sistemas detectan el idioma automáticamente y adaptan el tono y estilo de la conversación según la cultura del cliente objetivo.</p>
+    </div>
+
+    <div class="servicio">
+      <h3>5. Asistentes de Soporte Técnico 24/7</h3>
+      <p>Implementamos soluciones de soporte automatizado para responder dudas frecuentes, resolver incidencias básicas y redirigir casos complejos a humanos. Disponibilidad total las 24 horas del día, reduciendo la carga de trabajo de tu equipo de atención al cliente.</p>
+    </div>
+
+    <div class="servicio">
+      <h3>6. Entrenamiento de IA con tus propios datos</h3>
+      <p>Entrenamos modelos de IA usando tu documentación interna (manuales, PDFs, bases de conocimiento, correos, etc.) para que el bot tenga un entendimiento profundo de tu negocio. Esto permite ofrecer respuestas precisas, con contexto real y adaptadas a tus procesos internos.</p>
+    </div>
+
+    <div class="servicio">
+      <h3>7. Auditoría y Optimización de Bots Existentes</h3>
+      <p>Si ya tienes un chatbot, analizamos su rendimiento, detectamos cuellos de botella y lo optimizamos para mejorar la experiencia de usuario. Rediseñamos flujos, afinamos respuestas y mejoramos la tasa de conversión con base en análisis de datos y comportamiento de los usuarios.</p>
+    </div>
+
+    <div class="servicio">
+      <h3>8. Implementación de Recordatorios y Seguimiento Automático</h3>
+      <p>Conectamos tu bot con calendarios y sistemas de mensajería para enviar recordatorios automáticos de citas, eventos o tareas. Ideal para clínicas, talleres, consultorías y cualquier negocio que gestione agendamiento con clientes.</p>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Puedes escribirnos para solicitar una demo, una propuesta personalizada o simplemente para resolver tus dudas. Estamos aquí para ayudarte a dar el salto a la inteligencia automatizada.</p>
+    <p>Email: contacto@iabotworks.com</p>
+    <p>Teléfono: +34 678 123 456</p>
+  </section>
+
+  <section id="direccion">
+    <h2>Dirección</h2>
+    <p>Calle de la Tecnología, 12</p>
+    <p>29580 Sierra de Yeguas, Málaga, España</p>
+  </section>
+
+  <section id="horario">
+    <h2>Horario de Atención</h2>
+    <p>Lunes a Viernes: 9:30h a 18:00h</p>
+    <p>Fines de semana y festivos: Cerrado</p>
+  </section>
 
   <footer>
-    © 2025 IA BotWorks - Demostración de chatbot en vivo
+    © 2025 IA BotWorks - Automatización con Inteligencia Artificial
   </footer>
-
-  <script>
-    function abrirChat() {
-      document.getElementById('chatbox').style.display = 'block';
-    }
-  </script>
 
 </body>
 </html>
